@@ -1,12 +1,10 @@
 #!/bin/bash
 
 
-AC_NAME=OOT
-AC_SUPPLY=216000000
-SEEDIP1=78.47.196.146
-SEEDIP2=144.202.70.31
-SEEDIP3=199.247.26.10
-SEEDIP4=207.148.84.175
+AC_NAME=EQL
+AC_SUPPLY=500000000
+SEEDIP1=46.101.124.153
+
 
 # run container
 docker run -d --rm --name $AC_NAME -ti \
@@ -21,7 +19,4 @@ docker run -d --rm --name $AC_NAME -ti \
   -ac_name=$AC_NAME \
   -ac_supply=$AC_SUPPLY \
   -ac_sapling=5000000 \
-  -addnode=$SEEDIP1 \
-  -addnode=$SEEDIP2 \
-  -addnode=$SEEDIP3 \
-  -addnode=$SEEDIP4
+  -addnode=$SEEDIP1 
