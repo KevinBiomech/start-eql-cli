@@ -6,7 +6,7 @@ On Windows, the easiest way to install the daemon is just running Agama with EQL
 
 ## Linux
 
-You can also install Agama and run it with OOT activated in native mode. 
+You can also install Agama and run it with EQL activated in native mode. 
 
 There's also the Docker method, for servers, for example:
 
