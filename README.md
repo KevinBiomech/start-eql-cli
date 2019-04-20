@@ -1,4 +1,4 @@
-# How to start OOT daemon
+# How to start EQL daemon
 
 ## Windows
 
