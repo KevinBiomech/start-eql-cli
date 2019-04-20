@@ -2,7 +2,7 @@
 
 ## Windows
 
-On Windows, the easiest way to install the daemon is just running Agama with OOT activated in native mode. 
+On Windows, the easiest way to install the daemon is just running Agama with EQL activated in native mode. 
 
 ## Linux
 
